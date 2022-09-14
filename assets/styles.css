@@ -22,4 +22,209 @@
 
 }
 
+.currentTime {
+    font-size: 30px;
+    font-weight: 600;
+    color:rgba(175, 188, 227, 0.97)
+}
 
+.greeting {
+    font-size: 15px;
+}
+
+.mainWeatherCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-self: center;
+}
+
+
+.eachCard {
+    border-radius: 25px;
+    width: 160px;
+    height: 220px;
+    margin: 10px;
+    background: rgb(181,189,217);
+    background: linear-gradient(90deg, rgba(181,189,217,0.5835734870317003) 100%, rgba(214,215,219,0.76109375) 100%); 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+   
+}
+.snapshotP {
+    margin: 5rem 3rem 1rem;
+    padding-bottom: 10px; 
+    border-bottom: 2px solid;
+    width: fit-content;
+}
+
+.snapshotContainer {
+    display: flex;
+    margin: 0 20px;
+    padding: 30px;
+    font-size: medium;
+}
+
+.littleCard {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.outsideContainer {
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 7rem 3rem 0;
+    background: rgb(181,189,217);
+    background: linear-gradient(90deg, rgba(181,189,217,0.5835734870317003) 100%, rgba(214,215,219,0.76109375) 100%); 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.outsideContainer span {
+    font-size: large;
+    margin-right: 50px;
+}
+
+.outsideContainer .bold {
+    font-weight: bold;
+}
+
+.littleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.weatherContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(253, 253, 253);
+}
+
+.forecastContainer{
+    width: 75%;
+    height: 100vh;
+    background-color: rgba(218, 222, 226, 0.738);
+}
+
+#searchForm {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#searchText {
+    width: fit-content;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    font-size: 13px;
+    padding: 20px;
+}
+
+.searchBtn {
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 10px;
+    color: rgba(120, 117, 117, 0.635);
+}
+
+.cityWeatherContainer {
+    width: 282px;
+    height: fit-content;
+    box-sizing: content-box;
+    background-color: rgba(172, 204, 224, 0.868);
+    border-radius: 27px;
+    padding: 15px 0;
+    margin: 25px 0;
+    font-size: 15px;
+    text-align: center;
+    background: rgb(181,189,217);
+    background: rgb(181,189,217);
+    background: linear-gradient(90deg, rgba(181,189,217,0.5835734870317003) 100%, rgba(214,215,219,0.76109375) 100%);   
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cityWeatherContainer div {
+    margin: 10px 20px;
+}
+
+.cityNameContainer {
+    display: flex;
+    justify-content: flex-start;
+    translate: initial;
+    transform: translate(-17px, -10px);
+}
+
+.cityName {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color:rgb(255, 255, 255)
+}
+
+
+.todayDate {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.description {
+    font-size: 13px;
+    text-transform: capitalize;
+}
+
+.displayTemp {
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(245, 245, 245);
+}
+
+.historyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchHistory{
+    position: relative;
+}
+
+.historyBtn {
+    position: relative;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 200;
+    text-transform: capitalize;
+    margin: 12px;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background: rgb(191,159,224);
+    background: linear-gradient( 90deg, 
+      rgba(191,159,224,0.3717579250720461) 1%, 
+      rgba(222,207,240,0.3717579250720461) 100%, 
+      rgba(214,215,219,0.76109375) 100%);
+}
+/*relative history*/
+.removeBtn {
+    position: absolute;
+    border: none;
+    background: transparent;
+    font-size: 25px;
+    top: 1px;
+    right: 0px;
+    transition: 0.4s ease-in-out;
+}
