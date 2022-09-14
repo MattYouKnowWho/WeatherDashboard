@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 3px;
+    font-weight: 16px;
+    font-size: 16px;
+    color: rgba(78, 57, 25, 0.957);
+}
+
+.mainContainer{
+    width:auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.timeDtContainer {
+    margin: 20px;
+    padding: 30px;
+
+}

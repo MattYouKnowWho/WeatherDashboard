@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>  
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/5e5983136f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/styles.css"/>
+    <title>Weather App</title>
+  </head>
+
+  <body>
+  
+    <main class="mainContainer ">
+      <!-- Forecast cards-->
+      <div class="forecastContainer">
+        <div class="timeDtContainer">
+          <div class="currentTime"></div>
+          <div class="dayAndDt"></div>
+          <!-- nice greeting? -->
+          <div class="greeting"></div>
+        </div>
+        
+        <div class="mainWeatherCards" id="dailyForecast"></div>
+        <p class="snapshotP">Your Week's Forecast</p>
+        <div class="snapshotContainer" id="snapshot"></div>
+      </div>
+      
+      <div class="weatherContainer">
+        <!-- centering the card -->
+        <div class="centerCard">
+          <form id="searchForm">
+            <input type="text" class="form-control" id="searchText" placeholder=" Search For City ...">
+            <button class="searchBtn">Weather Me This</button>
+          </form>
+          <!-- display current weather given search prompt-->
+          <div class="cityWeatherContainer">
+            <div class="cityNameContainer">
+              <div class="cityName"></div>
+            </div>
+            <!-- Display weather info -->
+            <div class="weatherInfo">
+              <div class="todayDate"></div>
+              <div class="description"></div>
+              <img src="" alt="weather icon" class="weatherIcon">
+              <div class="displayTemp"></div>
+              <span class="feelsLike"></span>
+              <div class="flex-humidUV">
+                <div class="humid"></div>
+                <div class="UVIndex"></div>
+              </div>
+            </div>
+          </div>
+          <div class="historyContainer" id="displayHist"></div>
+        </div>
+
+      </div>
+
+
+
+    </main>
+</body>
+
+<!--possible footer in the future-->
+
+</html>
