@@ -13,6 +13,8 @@ var searchBtn = document.querySelector(".searchBtn");
 var currentTime = document.querySelector(".currentTime")
 var dayAndDt = document.querySelector(".dayAndDt");
 var greeting = document.querySelector(".greeting");
+
+
 var eachCard = document.querySelector(".eachCard");
 var dailyWeatherIcon = document.querySelector(".dailyWeatherIcon");
 var dailyDate = document.querySelector(".dailyDt");
@@ -26,6 +28,9 @@ var weatherIcon = document.querySelector(".weatherIcon");
 var description = document.querySelector(".description");
 var displayTemp = document.querySelector(".displayTemp");
 var feelsLike = document.querySelector(".feelsLike");
+
+
+
 var clouds = document.querySelector(".clouds");
 var visibility = document.querySelector(".visibility")
 var humidity = document.querySelector(".humid");
@@ -35,7 +40,7 @@ var sunset  = document.querySelector(".sunset");
 var weatherCards = document.querySelector(".mainWeatherCards");
 var snapshot = document.querySelector("#snapshot");
 
-const apiKey = "a1c4cd51fb96e1fea8730492e140e578"
+const apiKey = "1d4118f7e98178b78b6022957ca0f80f"
 
 //timer that kind of works
 function getTime () {
