@@ -40,7 +40,7 @@ var sunset  = document.querySelector(".sunset");
 var weatherCards = document.querySelector(".mainWeatherCards");
 var snapshot = document.querySelector("#snapshot");
 
-const apiKey = "1d4118f7e98178b78b6022957ca0f80f"
+const apiKey = "85000a1b352882fd04e9a2a12a4c34e3"
 
 //timer that kind of works
 function getTime () {
@@ -162,28 +162,28 @@ function getWeatherInfo (latitude, longitude){
             output2 = /*html*/ `
                 <div class="littleCard">
                     <div class=outsideContainer>
-                        <span>💧</span>
+                        
                         <div class="littleContainer">
                             <div>Dew Point</div>
                             <div class="bold">${currentDew}°</div>
                         </div>
                     </div>
                     <div class=outsideContainer>
-                        <span>💨</span>
+                        
                         <div class="littleContainer">
                             <div>Wind Speed</div>
                             <div class="bold">${currentWindSpeed} mph</div>
                         </div>
                     </div>
                     <div class=outsideContainer>
-                        <span>🙈</span>
+                        
                         <div class="littleContainer">
                             <div>Visibility</div>
                             <div class="bold">${currentVisibility} mi</div>
                         </div>
                     </div>
                     <div class=outsideContainer>
-                        <span>☁️</span>
+                        
                         <div class="littleContainer">
                             <div>Clouds</div>
                             <div class="bold">${currentClouds}%</div>
@@ -249,7 +249,7 @@ function displayStorage() {
 			output += /*html*/ `
             <div class="searchHistory">           
                 <button class="historyBtn" data-hover="⚡️" data-id="${displayHistory[i]}">${displayHistory[i]}</button>
-                <button class="removeBtn" data-id="${displayHistory[i]}">⚡️</button>
+                <button class="removeBtn" data-id="${displayHistory[i]}">✔</button>
             </div>
         `;
 		}

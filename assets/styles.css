@@ -7,8 +7,18 @@
     letter-spacing: 3px;
     font-weight: 16px;
     font-size: 16px;
-    color: rgba(78, 57, 25, 0.957);
+    color: rgba(244, 244, 243, 0.957);
+    
 }
+
+/* .titleApp {
+    width: auto;
+    margin: 0;
+    font-size: 16px;
+    padding: 6;
+    box-sizing: content-box;
+    background: rgb(70, 181, 191);
+} */
 
 .mainContainer{
     width:auto;
@@ -25,11 +35,11 @@
 .currentTime {
     font-size: 30px;
     font-weight: 600;
-    color:rgba(175, 188, 227, 0.97)
+    color:rgba(243, 244, 245, 0.97)
 }
 
 .greeting {
-    font-size: 15px;
+    font-size: 28px;
 }
 
 .mainWeatherCards {
@@ -46,13 +56,13 @@
     width: 160px;
     height: 220px;
     margin: 10px;
-    background: rgb(181,189,217);
-    background: linear-gradient(90deg, rgba(181,189,217,0.5835734870317003) 100%, rgba(214,215,219,0.76109375) 100%); 
+    background: rgb(70, 181, 191);
+    background: linear-gradient(90deg, rgb(70, 181, 191) 100%, rgba(214,215,219,0.76109375) 100%); 
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
    
 }
 .snapshotP {
-    margin: 5rem 3rem 1rem;
+    margin: 1rem 24rem 3rem;
     padding-bottom: 10px; 
     border-bottom: 2px solid;
     width: fit-content;
@@ -76,8 +86,8 @@
     border-radius: 10px;
     padding: 10px;
     margin: 0 7rem 3rem 0;
-    background: rgb(181,189,217);
-    background: linear-gradient(90deg, rgba(181,189,217,0.5835734870317003) 100%, rgba(214,215,219,0.76109375) 100%); 
+    background: rgb(70, 181, 191);
+    background: linear-gradient(90deg, rgb(70, 181, 191) 100%, rgba(214,215,219,0.76109375) 100%); 
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .outsideContainer span {
@@ -107,15 +117,15 @@
     align-items: center;
     width: 25%;
     height: 100vh;
-    background-color: rgb(253, 253, 253);
+    background-color: rgba(213, 212, 212, 0.729);
 }
 
 .forecastContainer{
     width: 75%;
     height: 100vh;
-    background-color: rgba(218, 222, 226, 0.738);
+    background: linear-gradient(42deg, rgb(70, 181, 191), rgb(186, 186, 184));
 }
-
+/* background-color: rgba(238, 201, 133, 0.897); */
 #searchForm {
     display: flex;
     flex-direction: row;
@@ -137,12 +147,12 @@
     border-radius: 20px;
     margin-left: 10px;
     padding: 10px;
-    font-size: 10px;
-    color: rgba(120, 117, 117, 0.635);
+    font-size: 12.5px;
+    color: rgb(239, 113, 29);
 }
 
 .cityWeatherContainer {
-    width: 282px;
+    width: 357px;
     height: fit-content;
     box-sizing: content-box;
     background-color: rgba(172, 204, 224, 0.868);
@@ -151,9 +161,7 @@
     margin: 25px 0;
     font-size: 15px;
     text-align: center;
-    background: rgb(181,189,217);
-    background: rgb(181,189,217);
-    background: linear-gradient(90deg, rgba(181,189,217,0.5835734870317003) 100%, rgba(214,215,219,0.76109375) 100%);   
+    background: linear-gradient(42deg, rgb(70, 181, 191), rgb(186, 186, 184));   
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
@@ -212,13 +220,9 @@
     margin: 12px;
     padding: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background: rgb(191,159,224);
-    background: linear-gradient( 90deg, 
-      rgba(191,159,224,0.3717579250720461) 1%, 
-      rgba(222,207,240,0.3717579250720461) 100%, 
-      rgba(214,215,219,0.76109375) 100%);
+    background: rgb(70, 181, 191);
 }
-/*relative history*/
+ /*relative history*/
 .removeBtn {
     position: absolute;
     border: none;
@@ -227,4 +231,4 @@
     top: 1px;
     right: 0px;
     transition: 0.4s ease-in-out;
-}
+} 
